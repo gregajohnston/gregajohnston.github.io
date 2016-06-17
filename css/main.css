@@ -150,7 +150,7 @@ PAGE: PORTFOLIO
     margin: 0;
     padding: 5%;
     font-size: 0.75em;
-    color: #000;
+    color: #333;
 }
 
 
@@ -229,7 +229,7 @@ COLORS
 /* site body */
 body {
     background-color: #fff;
-    color: #999;
+    color: #333;
 }
 
 /* green header */
