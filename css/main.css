@@ -112,7 +112,6 @@ footer {
     clear: both;
     padding-top: 0px;
     padding-bottom: 10px;
-    color: #ccc;
 }
 
 .social-icon {
@@ -142,15 +141,12 @@ PAGE: PORTFOLIO
     float: left;
     width: 45%;
     margin: 2.5%;
-    background-color: #f5f5f5;
-    color: #bdc3c7;
 }
 
 #gallery li a p {
     margin: 0;
     padding: 5%;
     font-size: 0.75em;
-    color: #333;
 }
 
 
@@ -238,6 +234,11 @@ header {
     border-color: #599a68;
 }
 
+/* dark gray footer */
+footer {
+    color: #333;
+}
+
 /* medium green nav background on mobile */
 nav {
     background: #599a68;
@@ -261,4 +262,9 @@ nav a, nav a:visited {
 /* dark green selected nav links */
 nav a.selected, nav a:hover {
     color: #32673f;
+}
+
+#gallery li {
+    background-color: #f5f5f5;
+    color: #bdc3c7;
 }
