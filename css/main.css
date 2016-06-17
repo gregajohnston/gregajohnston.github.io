@@ -264,7 +264,7 @@ nav a.selected, nav a:hover {
     color: #32673f;
 }
 
-#gallery li {
+#gallery li p {
     background-color: #f5f5f5;
     color: #333;
 }
