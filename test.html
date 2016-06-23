@@ -1,0 +1,205 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Keith Clark</title>
+        <style>
+            body{font:125%/1.75 Lustria,Georgia;color:#444;margin:0}
+            p{margin:3.5em 0}
+            h2{color:#b30027;font-size:175%;line-height:1.5;margin:.51em 0}
+            h2:first-child,h2+*{margin-top:0}img{max-width:100%;height:auto}
+            body>svg{display:none}
+                .grid{text-align:center;margin:auto;padding:20px;font-size:0}
+                .grid__item{font-size:1.25rem;-webkit-box-sizing:border-box;box-sizing:border-box;margin:0;padding:20px;display:inline-block;vertical-align:top;text-align:left;width:100%}
+                .grid--2{max-width:440px}
+                .grid--3{max-width:660px}
+                .grid--4{max-width:880px}
+                .grid--6{max-width:1320px}
+                .grid--center{text-align:center}
+                .sitelogo{max-height:75px}
+                .caption{font-size:90%;line-height:1.95;color:#a4a4a4;margin:0}
+                .image{background:#fff;border-radius:5px;box-shadow:0 0 0 1px #cecece,0 2px 0 1px #cecece;overflow:hidden}
+                .image img{display:block}
+                .image--8x5{padding-bottom:62.5%}
+                .image--8x5 img{width:100%;margin-bottom:-62.5%}
+                .nav a{color:inherit;text-decoration:none;display:inline-block}
+                .bullet-list{list-style:none;margin-left:0;padding-left:0}
+                .bullet-list li{margin:.875em 0}
+                .bullet-list li:before{display:inline-block;content:"\25CF";margin-left:-1.25em;width:1.25em;color:#999}
+                .page__nav{padding:0;background:#980013;color:#fff;margin:-1.1rem 0}
+                .page__nav a{font-size:110%;margin:.25em 1.15em}
+                .page__header{padding:6% 0;background:#b30027}
+                .page__title{color:#fff;-webkit-animation:.5s .25s fade backwards ease-out;animation:.5s .25s fade backwards ease-out}
+                .page__subtitle{display:block;font-size:115%;color:#999;text-transform:uppercase;letter-spacing:.35em;word-spacing:.5em;margin:.5em 0;-webkit-animation:.5s .5s fade backwards ease-out;animation:.5s .5s fade backwards ease-out}
+                .page__content{padding:5% 0;background:#e4e4e4}
+                .page__content--alt{background:#737978;color:#c6c6c6}
+                .page__content a:not(.button){color:#b30027}
+                .page__content--alt h2{color:#fff}
+                .page__content--alt strong{color:#fff}
+                .work a{text-decoration:none;color:inherit}
+                .work h2{color:#444;padding-bottom:.25em;border-bottom:1px solid #ccc}
+            @media screen and (max-width:640px){.grid{padding:0}.grid__item{font-size:.9rem}
+                .bullet-list{margin-left:1.125em}}
+            @media screen and (max-width:310px){.grid__item{font-size:.7rem}}
+            @-webkit-keyframes fade{from{transform:translateY(.25em);opacity:0}}
+            @keyframes fade{from{transform:translateY(.25em);opacity:0}}
+        </style>
+        <link rel="stylesheet" href="/css/font.min.css" media="none" onload="if(this.media!=='all')this.media='all';">
+        <link rel="alternate" type="application/rss+xml" title="Articles" href="http://keithclark.co.uk/feed.xml">
+        <link rel="shortcut icon" type="image/x-icon" href="/img/icon-32.png">
+        <meta name="description" content="A front-end web developer based in Farnborough, UK.">
+    </head>
+    <body>
+        <div class="page__nav grid">
+            <nav class="nav grid__item grid--4 grid--center">
+                <a href="/">Home</a>
+                <a href="/articles/">Articles</a>
+                <a href="mailto:&#099;&#114;&#101;&#097;&#116;&#101;&#064;&#107;&#101;&#105;&#116;&#104;&#099;&#108;&#097;&#114;&#107;&#046;&#099;&#111;&#046;&#117;&#107;">Email</a>
+                <a href="http://twitter.com/keithclarkcouk">Twitter</a>
+            </nav>
+        </div>
+        <div class="page__header">
+            <div class="grid grid--4">
+                <div class="grid__item grid--center">
+                    <svg class="page__title sitelogo" viewBox="0 0 5300 750"><use xlink:href="#kc-logo"/>Keith Clark</svg>
+                    <span class="page__subtitle">Front-end web developer</span>
+                </div>
+            </div>
+        </div>
+        <div class="page__content">
+            <div class="grid grid--6">
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/articles/js1k-2015-defender/">
+                        <div class="image image--8x5">
+                            <img src="/img/defender.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="js1k-defender">JS1K: Defender</h2>
+                        <p class="caption">My winning entry for JS1K 2015 is a frantic 1023 byte scrolling shooter inspired by the iconic arcade game Defender.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/labs/css-fps/">
+                        <div class="image image--8x5">
+                            <img src="/img/3d-css-fps.jpg" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="css-3d-engine">CSS 3D Engine</h2>
+                        <p class="caption">A 3D world with lighting, shadows and collision detection created with CSS transforms and HTML.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="https://github.com/keithclark/fuse-devtools">
+                        <div class="image image--8x5">
+                            <img src="/img/fuse.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="fuse">FUSE</h2>
+                        <p class="caption">Fuse is a boilerplate for creating Firefox, Opera and Google Chrome devtools extensions from a single codebase.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/articles/practical-css-parallax/smooth-scroll/">
+                        <div class="image image--8x5">
+                            <img src="/img/parallax.jpg" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="css-parallax">CSS Parallax</h2>
+                        <p class="caption">A pure CSS approach to parallax scrolling websites. Uses 3D transforms and perspective to create the effect.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="https://keithclark.github.io/gadebugger/">
+                        <div class="image image--8x5">
+                            <img src="/img/ga-debugger.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="analytics-debugger">Analytics Debugger</h2>
+                        <p class="caption">A browser extension for Chrome and Firefox devtools to debug Google Analytics tracking code while browsing websites.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="http://vimeo.com/75454802">
+                        <div class="image image--8x5">
+                            <img src="/img/talk.jpg" width="400" height="250" alt="">
+                        </div>
+                        <h2 id="talk-hacker-news">Talk: Hacker News</h2>
+                        <p class="caption">In September 2013, I spoke at Hacker News London about my 3D CSS experiments and some of the techniques used.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/labs/css-3d-shadows/">
+                        <div class="image image--8x5">
+                            <img src="/img/3d-css-shadows.jpg" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="css-3d-shadows">CSS 3D Shadows</h2>
+                        <p class="caption">An attempt to create real-time lighting and shadows cast from 3D models created with CSS transforms.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/articles/calculating-element-vertex-data-from-css-transforms/demo6/">
+                        <div class="image image--8x5">
+                            <img src="/img/xwing.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="css-lighting">CSS Lighting</h2>
+                        <p class="caption">Dynamically shading elements positioned using CSS 3D transforms by decomposing matrices and calculating vertex data.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/articles/thrust-js1k-2014-entry/">
+                        <div class="image image--8x5">
+                            <img src="/img/thrust.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="js1k-thrust">JS1K: Thrust</h2>
+                        <p class="caption">My entry for the 2014 JavaScript 1K competition was a remake of the classic 8-bit computer game, Thrust.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="/labs/three-js-css-renderer/">
+                        <div class="image image--8x5">
+                            <img src="/img/three-js-css.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="threejs-css">Three.js CSS</h2>
+                        <p class="caption">A prototype renderer for three.js. Capable of rendering lights, textures and geometry using CSS.</p>
+                    </a>
+                </div>
+                <div class="work grid__item grid--2 grid--center">
+                    <a href="http://selectivizr.com/">
+                        <div class="image image--8x5">
+                            <img src="/img/selectivizr.png" alt="" width="400" height="250">
+                        </div>
+                        <h2 id="selectivizr">Selectivizr</h2>
+                        <p class="caption">A JavaScript utility that emulates CSS3 pseudo-class and attribute selectors in Internet Explorer 6-8</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="page__content page__content--alt">
+            <div class="grid grid--6">
+                <div class="grid__item grid--3">
+                    <h2 id="personal-achievements">Personal Achievements</h2>
+                    <ul class="bullet-list">
+                        <li><strong>2015 JS1k – winner</strong></li>
+                        <li><strong>2014 Net Awards: Demo of the year – winner</strong></li>
+                        <li>2014 Net Awards: Developer of the year – longlist</li>
+                        <li>2013 Public speaking for the first time</li>
+                        <li>2011 .net Magazine innovation of the year – shortlist</li>
+                    </ul>
+                </div>
+                <div class="grid__item grid--3">
+                    <h2 id="referenced-in">Referenced in…</h2>
+                    <img src="/img/books.png" alt="Smashing CSS, CSS3 for web designers, Programming 3D Applications with HTML5 and WebGL and more." width="630" height="122">
+                    <p class="caption">I am very proud to have had my work referenced in a number of publications, written by some very talented people.</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <svg><defs><path id="kc-logo" d="M1112 24c-48 1-61 3-73 5v705c120 4 132 2 144 0V29c-48-5-60-5-71-5m248 345l195-339c-57-5-70-6-81-6-48 1-62 3-77 6l-193 349 208 355c56 5 67 5 78 5 52-3 67-4 82-5l-212-365m334 154c2 39 16 68 41 85 25 18 58 27 99 27 23 0 46-2 69-7 23-4 46-10 67-18 7 13 13 29 19 47 5 18 8 38 8 59-51 19-109 29-174 29-47 0-88-6-122-19s-61-31-83-55c-21-23-37-50-47-82-11-32-16-67-16-105 0-37 6-72 16-105 11-32 26-61 47-85s47-43 77-57c31-14 67-21 108-21 35 0 67 6 95 18 27 13 51 30 70 51 20 22 34 47 44 77s15 62 15 95c-2 49-4 59-5 66h-328m201-97c-2-31-11-56-27-76-16-19-38-29-67-29-33 0-58 10-76 28-17 18-27 44-30 77h200m155-199c-4 17-6 35-6 52 2 37 4 46 6 54h66v401c24 3 47 5 68 5 23 0 46-2 70-5V227h-204m306 106h-64l-5-19 185-234h23v147h120c3 86 2 96 0 106h-120v199c0 20 2 36 5 49 3 12 8 22 14 29s14 12 23 15c10 2 21 4 33 4 39-4 47-6 55-7 4 12 7 25 9 39 3 58 2 63 1 68-30 7-61 10-94 10-60 0-105-13-137-41s-48-73-48-136V333m314-315c47-5 58-5 69-5 47 2 59 3 70 5v269c26-29 36-37 47-44 11-8 25-14 41-19 15-6 33-8 54-8 57 0 100 15 129 47 29 31 44 80 44 148v323c-117 4-129 2-140 0V448c0-36-6-63-17-82-11-18-31-28-58-28-11 0-22 2-34 5s-23 10-32 19c-10 10-18 23-24 40s-10 39-10 66v266c-115 4-127 2-139 0V18m1002 582c27 76 31 95 34 115-35 12-66 20-93 24s-57 6-88 6c-56 0-106-9-148-27s-77-43-106-75-50-71-65-115c-14-44-22-93-22-145s8-101 23-145c15-45 37-84 66-116 29-33 64-58 106-77 42-18 89-27 143-27 31 0 60 2 87 6s56 12 87 24c-19 76-26 95-34 114-23-8-43-13-61-17-18-3-39-5-64-5-63 0-112 21-145 62-34 40-51 101-51 181 0 159 68 239 204 239 25 0 46-2 65-5 18-3 39-9 62-17m88-582c24-4 47-6 70-6s46 2 69 6c0 534 2 550 4 563 2 12 6 22 11 29s11 11 19 14c53 2 59 1 65 0 11 83 11 88 11 92 0 5 0 9-2 15-53 8-66 8-79 8-51 0-91-13-122-41s-46-73-46-136V18m562 383c0-16-3-29-8-38-6-10-13-18-22-23-9-6-21-10-34-12-14-2-29-3-45-3-36 0-74 7-114 21-9-17-16-33-21-48-4-15-7-33-7-54 29-10 58-17 87-21 29-5 56-7 81-7 69 0 123 16 161 49 39 32 58 84 58 156v294c-23 7-51 14-84 20-33 7-70 10-112 10-33 0-64-3-92-9-28-5-52-15-72-29-21-14-36-31-47-53-11-21-16-48-16-79s6-58 20-79 31-38 52-51c22-12 46-22 72-27 26-6 53-8 79-8 19 0 40 1 64 2v-11m0 101c-35-5-44-5-51-5-32 0-58 5-77 17-18 11-28 30-28 55 0 17 4 30 11 39s16 16 26 20c45 9 55 10 63 10 40-4 48-6 56-7V502m180-275c37-5 47-5 57-5 39 3 48 4 58 6 14 62 15 67 15 72 15-20 33-38 54-54s47-24 79-24c31 1 38 2 41 4 4 31 4 39 4 48-2 50-4 62-7 74-51-2-64-1-78 1-14 3-27 9-39 18-13 10-23 25-31 44-9 20-13 47-13 83v240c-116 4-128 2-140 0V227m339-209v716c22 3 46 5 69 5 24 0 47-2 71-5V18c-24-4-47-6-71-6-23 0-47 2-69 6m307 443l130-234c-24-3-48-5-73-5-26 0-52 2-78 5l-127 241 149 266c25 3 50 5 73 5 25 0 51-2 78-5l-152-273M784 208c-3-54-10-110-20-166-57-10-119-18-186-23-55-4-106-6-155-7L225 358l218 375c33 0 67-1 102-3L394 461l132-250c26-4 53-6 81-6 26 0 51 2 76 6L547 454l148 264c24-2 47-6 69-10 10-56 17-112 20-169 4-56 5-111 5-164 0-56-1-112-5-167M257 16C148 24 87 32 30 42 10 158 0 269 0 375c0 110 10 221 30 333 207 21 226 22 245 23L63 368 257 16m1875 130c85 0 97-2 108-4 4-44 5-55 5-65-2-44-3-55-5-66-50-5-62-6-73-6-48 3-60 4-72 6-4 23-6 45-6 66s2 43 6 65c12 2 24 4 37 4" fill="#fff"/></defs></svg>
+        <script>
+            (function(i,s,o,g,r,a,m)
+            {i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-10812217-1', 'auto');
+            ga('send', 'pageview');
+        </script>
+    </body>
+</html>

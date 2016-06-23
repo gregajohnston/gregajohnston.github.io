@@ -65,20 +65,9 @@
         margin-bottom: 30px;
     }
 
-    #logo {
-        float: left;
-        margin-left: 5%;
-        text-align: left;
-        width: 45%
-    }
-
     nav {
         background: none;
-        float: right;
         font-size: 1.125em;
-        margin-right: 5%;
-        text-align: right;
-        width: 45%
     }
 
 
