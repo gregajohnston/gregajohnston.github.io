@@ -12,7 +12,9 @@ html {
 
 body {
     font-family: 'Alegreya Sans', sans-serif;
-    height: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -28,17 +30,20 @@ h3 {
     margin: 0 0 1em 0;
 }
 
-#push {
-    height: 4em;
-}
-
 #body_wrapper {
-    min-height: 100%;
+    overflow: auto;
+    min-height: 1900px;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -5em;
+    margin: 10px auto 0 auto;
     max-width: 940px;
+    width: 90%;
     padding: 0 5%;
+    /*border-left: 18px;
+    border-right: 18px;
+    border-top: 0;
+    border-bottom: 0;
+    border-style: solid;*/
 }
 
 
@@ -48,47 +53,40 @@ HEADER
 ****************************/
 
 header {
-    float: left;
-    margin: 0 0 30px 0;
-    /*padding: 5px 0 0 0;*/
     width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    margin-bottom: 40px;
 }
 
 #logo {
-    text-align: center;
+    /*text-align: center;*/
     margin: auto;
-    margin-top: 10px;
+    padding: 10px;
     width: 90%;
-    max-width: 330px;
-    min-height: 100px;
+    /*max-width: 330px;
+    min-height: 70px;*/
 }
 
 #personal-icon {
-    float: left;
-    /*margin: 10px 0px 0px 50px;*/
-    width: 90%;
-    max-width: 400px;
-    padding: 10px;
-}
-
-
-nav {
-    width: 100%;
+    width: 80%;
+    padding: 0.5em 2% 0 2%;
+    margin: 0 8%;
 }
 
 h1 {
-    float: right;
     font-family: 'Lora', sans-serif;
-    margin: 15px 0;
-    font-size: 1.75em;
+    font-size: .85em;
     font-weight: normal;
-    line-height: 0.8em;
-    width: 260;
+    line-height: 1em;
+    width: 80%;
+    padding: 0 2% 0.5em 2%;
+    margin: -0.3em 8% 0 8%;
     text-transform: uppercase;
+    text-align: center;
 }
 
 h2 {
-    float: right;
     font-size: 0.75em;
     margin: -5px 0 5px;
     font-weight: normal;
@@ -101,22 +99,30 @@ h2 {
 NAVIGATION
 ****************************/
 
+#nav_wrapper {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+
 nav {
+    width: 100%;
     text-align: center;
-    padding: 10px 0px;
-    position: relative;
+    /*position: relative;*/
     /*margin: 20px 0 0;*/
 }
 
 nav ul {
+    padding: 10px 0px;
+    width: 100%
     list-style: none;
-    margin: 0 10px;
     padding: 0;
 }
 
 nav li {
     display: inline-block;
-    padding: 5px 5px;
+    padding: 10px 5px;
 }
 
 nav a {
@@ -124,30 +130,53 @@ nav a {
     padding: 5px 10px;
 }
 
-
+.scrolling {
+    position: fixed !important;
+    top 0;
+}
 
 /****************************
 Footer
 ****************************/
 
+#footer_wrapper {
+    bottom:0;
+    max-height:50px;
+    left:0;
+    position:fixed;
+    width:100%;
+}
+
 footer {
-    height: 3em;
+    width: 80%;
+    max-width:940px;
+    margin: 0 auto;
+    height: 60px;
     font-size: 0.75em;
     text-align: center;
-    clear: both;
-    padding-top: 0px;
-    padding-bottom: 10px;
+}
+
+footer p {
+    float: left;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+a.social-link {
+    width: 10px !important;
+    max-height: 0px !important;
+    margin: 10px;
 }
 
 .social-icon {
-    width: 20px;
-    height: 20px;
-    padding: 10px 5px 0px 5px;
-    margin: 10px 5px 0px 5px;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin: 5px;
 }
 
 #copywrite {
-    margin: 0em 0 1em 0;
+    float: right;
 }
 
 
@@ -249,53 +278,54 @@ COLORS
 
 /* site body */
 body {
-    background-color: #ddd;
-    color: #333;
+    background: #fdf6e3;
+    color: #657b83;
 }
 
 /* green header */
 header {
-    background: #6ab47b;
-    border-color: #599a68;
+    background: #fdf6e3;
+    border-color: #268bd2;
 }
 
 /* dark gray footer */
 footer {
-    color: #333;
+    background: #eee8d5;
+    color: #586e75;
 }
 
 /* medium green nav background on mobile */
-nav {
-    background: #599a68;
+nav ul {
+    background: #eee8d5;
 }
 
 /* white logo text */
 h1, h2 {
-    color: #fff;
-}
-
-/* green links */
-a {
-    color: #6ab47b;
+    color: #586e75;
 }
 
 /* white nav links */
 nav a, nav a:visited {
-    color: #fff;
+    color: #586e75;
 }
 
 /* dark green selected nav links */
 nav a.selected, nav a:hover {
-    color: #32673f;
+    color: #268bd2;
 }
 
 #gallery li a p {
-    background-color: #f5f5f5;
-    color: #333;
+    background: #fdf6e3;
+    color: #657b83;
 }
 
+/*#personal-icon {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}*/
 
-/*$base03:    #002b36;
+/*
+$base03:    #002b36;
 $base02:    #073642;
 $base01:    #586e75;
 $base00:    #657b83;
@@ -310,4 +340,5 @@ $magenta:   #d33682;
 $violet:    #6c71c4;
 $blue:      #268bd2;
 $cyan:      #2aa198;
-$green:     #859900;*/
+$green:     #859900;
+*/

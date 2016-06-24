@@ -61,7 +61,7 @@
     }
 
     header {
-        border-bottom: 15px solid #599a68;
+        border-bottom: 15px;
         margin-bottom: 30px;
     }
 
@@ -99,8 +99,8 @@
     ****************************/
 
     .social-icon {
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 }
 
@@ -126,7 +126,7 @@
     ****************************/
 
     .social-icon {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
 }
