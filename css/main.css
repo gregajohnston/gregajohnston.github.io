@@ -31,19 +31,16 @@ h3 {
 }
 
 #body_wrapper {
+    position: relative;
+    top: -40px;
     overflow: auto;
     min-height: 1900px;
     height: auto !important;
     height: 100%;
-    margin: 10px auto 0 auto;
+    margin: 0px auto 0 auto;
     max-width: 940px;
     width: 90%;
-    padding: 0 5%;
-    /*border-left: 18px;
-    border-right: 18px;
-    border-top: 0;
-    border-bottom: 0;
-    border-style: solid;*/
+    padding: 55px 5% 0 5%;
 }
 
 
@@ -54,18 +51,16 @@ HEADER
 
 header {
     width: 100%;
+    height: 90px;
     border-width: 0 0 10px 0;
     border-style: solid;
     margin-bottom: 40px;
 }
 
 #logo {
-    /*text-align: center;*/
     margin: auto;
     padding: 10px;
     width: 90%;
-    /*max-width: 330px;
-    min-height: 70px;*/
 }
 
 #personal-icon {
@@ -100,22 +95,26 @@ NAVIGATION
 ****************************/
 
 #nav_wrapper {
+    height: 45px;
     width: 100%;
     position: absolute;
     left: 0;
-    top: 90px;
+    top: 100px;
+    z-index: 99;
 }
 
 nav {
     width: 100%;
     text-align: center;
+    height: 45px;
     /*position: relative;*/
     /*margin: 20px 0 0;*/
 }
 
 nav ul {
     padding: 10px 0px;
-    width: 100%
+    width: 100%;
+    height: 45px;
     list-style: none;
     padding: 0;
 }
@@ -123,16 +122,17 @@ nav ul {
 nav li {
     display: inline-block;
     padding: 10px 5px;
+    height: 25px;
 }
 
 nav a {
     font-weight: 800;
-    padding: 5px 10px;
+    padding: 10px 5px;
 }
 
-.scrolling {
+.scroll-lock {
     position: fixed !important;
-    top 0;
+    top: 0 !important;
 }
 
 /****************************
@@ -141,7 +141,7 @@ Footer
 
 #footer_wrapper {
     bottom:0;
-    max-height:50px;
+    height:45px;
     left:0;
     position:fixed;
     width:100%;
@@ -149,9 +149,9 @@ Footer
 
 footer {
     width: 80%;
+    height:45px;
     max-width:940px;
     margin: 0 auto;
-    height: 60px;
     font-size: 0.75em;
     text-align: center;
 }
@@ -160,6 +160,11 @@ footer p {
     float: left;
     margin: 10px;
     margin-top: 20px;
+}
+
+.fa {
+    width: 20px;
+    height: 20px;
 }
 
 a.social-link {
@@ -291,7 +296,7 @@ header {
 /* dark gray footer */
 footer {
     background: #eee8d5;
-    color: #586e75;
+    color: #000;
 }
 
 /* medium green nav background on mobile */
@@ -318,6 +323,7 @@ nav a.selected, nav a:hover {
     background: #fdf6e3;
     color: #657b83;
 }
+
 
 /*#personal-icon {
     -webkit-filter: invert(100%);

@@ -7,23 +7,25 @@
         <link href='https://fonts.googleapis.com/css?family=Lora|Alegreya+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' href='css/main.css'>
         <link rel='stylesheet' href='css/responsive.css'>
+        <link rel='icon' href='img/favicon-white1.png' type='image/png'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     </head>
     <body>
-        <header>
-            <nav>
-                <ul>
-                    <li><a href='portfolio.html'>Portfolio</a></li>
-                    <li><a href='resume.html'>Resume</a></li>
-                    <li><a href='contact.html' class='selected'>Contact</a></li>
-                </ul>
-            </nav>
+        <header id='header'>
             <div id='logo'>
-                <a href='index.html' id='logo'>
-                    <img alt="Personal icon" src=''>
-                    <h1>Greg Johnston</h1>
-                    <h2>Python Developer</h2>
+                <a href='index.html'>
+                    <img src='img/gj-logo-offgray.png' alt="Personal icon" id='personal-icon'>
+                    <h1>Future Full Stack Python Developer</h1>
                 </a>
+            </div>
+            <div id='nav_wrapper'>
+                <nav>
+                    <ul>
+                        <li><a href='portfolio.html'>Portfolio</a></li>
+                        <li><a href='resume.html'>Resume</a></li>
+                        <li><a href='contact.html' class='selected'>Contact</a></li>
+                    </ul>
+                </nav>
             </div>
         </header>
         <div id='body_wrapper'>
@@ -44,14 +46,22 @@
             </section>
             <div id="push"></div>
         </div>
-        <footer>
-            <a href='http://twitter.com'>
-                <img src='img/twitter-wrap.png' alt='Twitter Logo' class='social-icon'>
-            </a>
-            <a href='http://facebook.com'>
-                <img src='img/facebook-wrap.png' alt='Facebook Logo' class='social-icon'>
-            </a>
-            <p id='copywrite'>&copy; 2016 Greg Johnston</p>
-        </footer>
+        <div id='footer_wrapper'>
+            <footer>
+                <p>Contact me:</p>
+                <a href='http://github.com/gregajohnston' class='social-link'>
+                    <img src='img/GitHub-Mark-64px.png' alt='GitHub Logo' class='social-icon'>
+                </a>
+                <a href='http://linkedin.com/in/gregajohnston' class='social-link'>
+                    <img src='img/linkedin_circle_black.png' alt='Linkedin Logo' class='social-icon'>
+                </a>
+                <a href='http://www.facebook.com/greg.a.johnston' class='social-link'>
+                    <img src='img/facebook-circle.png' alt='Facebook Logo' class='social-icon'>
+                </a>
+                <p id='copywrite'>&copy; 2016 Greg Johnston</p>
+            </footer>
+        </div>
     </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="js/navlock.js"></script>
 </html>
