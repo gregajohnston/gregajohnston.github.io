@@ -3,8 +3,14 @@
     GENERAL
     ****************************/
 
+    header {
+        height: 100px;
+    }
+
     h1 {
-        font-size: 1em;
+        font-size: .8em;
+        letter-spacing: 2.3px;
+        word-spacing: 4.2px;
     }
 
     h2 {
@@ -12,18 +18,13 @@
         margin-bottom: 10px;
     }
 
-
-
-    /****************************
-    PAGE: PORTFOLIO
-    ****************************/
-
-    #gallery li {
-        width: 28.3333%;
+    #logo {
+        width: 360px;
+        padding: 10px 5px 10px 5px;
     }
 
-    #gallery li:nth-child(4n) {
-        clear: left;
+    #nav_wrapper {
+        top: 100px;
     }
 
 
@@ -42,6 +43,29 @@
         width: 40%;
         float: right;
     }
+
+
+
+    /****************************
+    FOOTER
+    ****************************/
+
+    #page_bottom {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 60px;
+        border-style: solid;
+    }
+
+    .social-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    #footer_wrapper {
+        height: 60px;
+    }
 }
 
 
@@ -51,8 +75,14 @@
     GENERAL
     ****************************/
 
+    header {
+        height: 140px;
+    }
+
     h1 {
-        font-size: 2em;
+        font-size: 1.1em;
+        letter-spacing: 3.2px;
+        word-spacing: 5.5px;
     }
 
     h2 {
@@ -60,14 +90,29 @@
         margin-bottom: 15px;
     }
 
-    header {
-        border-bottom: 15px;
-        margin-bottom: 30px;
+    #logo {
+        width: 495px;
+        padding: 20px 5px 20px 5px;
+    }
+
+    #nav_wrapper {
+        top: 140px;
     }
 
     nav {
-        background: none;
-        font-size: 1.125em;
+        font-size: 1.5em;
+    }
+
+
+
+    /****************************
+    PAGE: PORTFOLIO
+    ****************************/
+
+    #gallery {
+      -webkit-columns: 2 200px;
+         -moz-columns: 2 200px;
+              columns: 2 200px;
     }
 
 
@@ -98,11 +143,24 @@
     FOOTER
     ****************************/
 
+    #page_bottom {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 65px;
+        border-style: solid;
+    }
+
     .social-icon {
         width: 35px;
         height: 35px;
     }
+
+    #footer_wrapper {
+        height: 65px;
+    }
 }
+
 
 
 @media screen and (min-width: 1000px) {
@@ -110,13 +168,41 @@
     GENERAL
     ****************************/
 
+    header {
+        height: 200px;
+    }
+
     h1 {
-        font-size: 2.125em;
+        font-size: 1.75em;
+        letter-spacing: 4px;
+        word-spacing: 8.5px;
     }
 
     h2 {
         font-size: 1.125em;
         margin-bottom: 20px;
+    }
+
+    #logo {
+        width: 750px;
+        padding: 20px 5px 20px 5px;
+    }
+
+    #nav_wrapper {
+        height: 50px;
+        top: 200px;
+    }
+
+
+
+    /****************************
+    PAGE: PORTFOLIO
+    ****************************/
+
+    #gallery {
+      -webkit-columns: 3 200px;
+         -moz-columns: 3 200px;
+              columns: 3 200px;
     }
 
 
@@ -125,8 +211,20 @@
     FOOTER
     ****************************/
 
+    #page_bottom {
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 70px;
+        border-style: solid;
+    }
+
     .social-icon {
         width: 40px;
         height: 40px;
+    }
+
+    #footer_wrapper {
+        height: 70px;
     }
 }
