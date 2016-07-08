@@ -110,9 +110,9 @@
     ****************************/
 
     #gallery {
-      -webkit-columns: 2 200px;
-         -moz-columns: 2 200px;
-              columns: 2 200px;
+      -webkit-columns: 2 300px;
+         -moz-columns: 2 300px;
+              columns: 2 300px;
     }
 
 

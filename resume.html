@@ -6,6 +6,7 @@
         <link rel='stylesheet' href='css/normalize.css'>
         <link href='https://fonts.googleapis.com/css?family=Lora|Alegreya+Sans:400,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
         <link rel='stylesheet' href='css/main.css'>
+        <link rel='stylesheet' href='css/colors.css'>
         <link rel='stylesheet' href='css/responsive.css'>
         <link rel='icon' href='img/favicon-white1.png' type='image/png'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
@@ -22,6 +23,7 @@
                 <nav>
                     <ul>
                         <li><a href='index.html'>Portfolio</a></li>
+                        <li><a href='about.html'>About</a></li>
                         <li><a href='resume.html'  class='selected'>Resume</a></li>
                         <li><a href='contact.html'>Contact</a></li>
                     </ul>
@@ -29,18 +31,44 @@
             </div>
         </header>
         <div id='body_wrapper'>
-            <section id='primary-a'>
-                <img src='img/headshot.jpg' alt='Photograph of Greg Johnston' class='profile-photo'>
+            <section id='resume'>
+                <div id='title' class='resumetext'>
+                    <h3>Gregory Johnston</h3>
+                    <p>3016 Pickett Rd, Apt 602 &#8226; Durham, NC 27705</p>
+                    <p>greg.a.johnston@gmail.com</p>
+                    <p>github.com/gregajohnston &#8226; linkedin.com/in/gregajohnston</p>
+                </div>
+                <br>
+                <div id='careerobj' class='resumetext'>
+                    <h3>Career Objective</h3>
+                    <p>Master's graduate seeking to leverage experience in risk analysis, personnel management and quality assurance for developement position. Dedicated employee with outstanding attention to detail and communication skills. Recently completed course of study in backend development and data science at The Iron Yard code school. Specific expertise in the following:</p>
+                    <ul>
+                        <li><p>Python, HTML, CSS, JavaScript</p></li>
+                        <li><p>Project Management</p></li>
+                        <li><p>Statistical Modeling</p></li>
+                        <li><p>Database Management</p></li>
+                    </ul>
+                </div>
+                <br>
+                <div id='professionalxp' class='resumetext'>
+                    <p><b>The Iron Yard</b>  Durham, NC</p>
+                    <p>Connect with people pursuing the craft and lifelong adventure of technology and help equip them with the skills they need to both get started and progress throughout their careers.</p>
+                    <p><b><i>Student</i></b></p>
+                    <p>Learn skills and best practices related to Python development and data science.</p>
+                    <ul>
+                        <li><p>Final project created product that sends sensor data over Wi-Fi to web app</p></li>
+                        <li><p>Developed and deployed Django web apps using Postgresql databases</p></li>
+                        <li><p>Implemented pandas and scikit-learn to develop machine learning algorithms</p></li>
+                        <li><p>Learned core Python programming fundamentals including common best practices</p></li>
+                    </ul>
+                </div>
             </section>
-            <section id='secondary-a'>
-                <h3>About</h3>
-                <p> Hi! I'm Greg Johnston and this is my programming portfolio. Here I share my favorite work. When I'm not programming, I enjoy hiking, playing video games, and writing. </p>
-                <p> If you'd like to follow my on Twitter, my username is <a href='http://twitter.com'>@gregaj</a></p>
+            <section id='page_bottom'>
+                <p id='copywrite'>All content copywrite &copy; 2016 Gregory Johnston and licensed under MIT.</p>
             </section>
         </div>
         <div id='footer_wrapper'>
             <footer>
-                <p>Contact me:</p>
                 <a href='http://github.com/gregajohnston' class='social-link'>
                     <img src='img/GitHub-Mark-64px.png' alt='GitHub Logo' class='social-icon'>
                 </a>

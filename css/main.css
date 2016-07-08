@@ -23,7 +23,7 @@ a {
 
 img {
     max-width: 100%;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 
 #body_wrapper {
@@ -206,9 +206,9 @@ PAGE: PORTFOLIO
     margin: 0;
 }
 
-#gallery li a p {
-    margin: 0;
-    padding: 3% 5% 10% 5%;
+#gallery li p {
+    margin: 2% 0 5% 0;
+    padding: 3% 5% 5% 5%;
     font-size: 0.75em;
 }
 
@@ -217,6 +217,15 @@ PAGE: PORTFOLIO
 /****************************
 PAGE: ABOUT
 ****************************/
+
+#about {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 1200px;
+    width: 90%;
+}
 
 .profile-photo {
     display: block;
@@ -246,8 +255,42 @@ PAGE: ABOUT
 
 
 /****************************
+PAGE: RESUME
+****************************/
+
+#resume {
+    height: 100%;
+    width: 100%;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+    max-width: 1200px;
+    width: 80%;
+    max-width: 8.5in;
+}
+
+#title {
+    text-align: center;
+}
+
+.resumetext h3 {
+    text-align: center;
+    word-spacing: .25em;
+}
+
+
+
+/****************************
 PAGE: CONTACT
 ****************************/
+
+#contact {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    max-width: 1200px;
+    width: 90%;
+}
 
 .contact-info {
     list-style: none;
@@ -279,120 +322,3 @@ PAGE: CONTACT
     background-image: url('../img/twitter.png');
     display: inline;
 }
-
-/****************************
-COLORS
-****************************/
-
-body {
-    background: #fdf6e3;
-    color: #657b83;
-}
-
-header {
-    background: #fdf6e3;
-    border-color: #268bd2;
-}
-
-#body_wrapper {
-    background: #fdf6e3;
-}
-
-footer {
-    /*background: #eee8d5;*/
-    background: rgba(238, 232, 213, 0.9);
-    color: #000;
-}
-
-/* white logo text */
-h1, h2 {
-    color: #586e75;
-}
-
-/* white nav links */
-nav a, nav a:visited {
-    color: #586e75;
-}
-
-/* dark green selected nav links */
-nav a.selected {
-    color: #268bd2;
-}
-
-#gallery li a p {
-    background: #fdf6e3;
-    color: #657b83;
-}
-
-nav a:hover {
-    color: #dc322f;
-    -webkit-transition: color 500ms linear;
-    -moz-transition: color 500ms linear;
-    -o-transition: color 500ms linear;
-    -ms-transition: color 500ms linear;
-    transition: color 500ms linear;
-}
-
-#page_bottom {
-    background-color: #073642;
-    border-color: #eee8d5;
-}
-
-#copywrite {
-    color: #eee8d5;
-}
-
-.social-icon {
-    border-color: rgba(238, 232, 213, 0.9);
-}
-
-.social-icon:hover {
-    border-color: #dc322f;
-    -webkit-transition: border-color 500ms linear;
-    -moz-transition: border-color 500ms linear;
-    -o-transition: border-color 500ms linear;
-    -ms-transition: border-color 500ms linear;
-    transition: border-color 500ms linear;
-}
-
-#nav_wrapper {
-    -webkit-animation: colorchange 10000ms infinite; /* Chrome, Safari, Opera */
-    animation: colorchange 10000ms infinite;
-    color: rgba(38,139,210, 1);
-    background: rgba(238, 232, 213, 1);
-}
-
-@-webkit-keyframes colorchange {  /* Chrome, Safari, Opera */
-    50% {
-        border-color: rgba(42, 161, 152, 1);
-    }
-}
-
-@keyframes colorchange {  /* Standard syntax */
-    50% {
-        border-color: rgba(42, 161, 152, 1);
-    }
-}
-
-.scroll-lock {
-    background: rgba(238, 232, 213, 0.9) !important;
-}
-
-/*
-$base03:    #002b36;  rgb(0,43,54)
-$base02:    #073642;  rgb(7,54,66)
-$base01:    #586e75;  rgb(88,110,117)
-$base00:    #657b83;  rgb(101,123,131)
-$base0:     #839496;  rgb(131,148,150)
-$base1:     #93a1a1;  rgb(147,161,161)
-$base2:     #eee8d5;  rgb(238,232,213)
-$base3:     #fdf6e3;  rgb(253,246,227)
-$yellow:    #b58900;  rgb(181,137,0)
-$orange:    #cb4b16;  rgb(203,75,22)
-$red:       #dc322f;  rgb(220,50,47)
-$magenta:   #d33682;  rgb(211,54,130)
-$violet:    #6c71c4;  rgb(108,113,196)
-$blue:      #268bd2;  rgb(38,139,210)
-$cyan:      #2aa198;  rgb(42,161,152)
-$green:     #859900;  rgb(133,153,0)
-*/
