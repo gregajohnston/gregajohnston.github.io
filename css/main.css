@@ -278,6 +278,10 @@ PAGE: RESUME
     text-transform: uppercase;
 }
 
+.fulltext {
+    text-align: justify;
+}
+
 .resumetext ul {
     display: table;
     margin: 0 auto;
