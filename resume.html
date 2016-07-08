@@ -31,36 +31,113 @@
             </div>
         </header>
         <div id='body_wrapper'>
+            <form id='pagebuttons'>
+                <input class='pagebutton' type='radio' name='pages' value='Page 1' onclick="openPage('Page 1')" checked>
+                <input class='pagebutton' type='radio' name='pages' value='Page 2' onclick="openPage('Page 2')">
+            </form>
             <section id='resume'>
-                <div id='title' class='resumetext'>
-                    <h3>Gregory Johnston</h3>
-                    <p>3016 Pickett Rd, Apt 602 &#8226; Durham, NC 27705</p>
-                    <p>greg.a.johnston@gmail.com</p>
-                    <p>github.com/gregajohnston &#8226; linkedin.com/in/gregajohnston</p>
+                <div id='Page 1' class='city'>
+                    <div id='title' class='resumetext'>
+                        <h3>Gregory Johnston</h3>
+                        <p>3016 Pickett Rd, Apt 602 &#8226; Durham, NC 27705</p>
+                        <p>greg.a.johnston@gmail.com</p>
+                        <p>github.com/gregajohnston &#8226; linkedin.com/in/gregajohnston</p>
+                    </div>
+                    <br>
+                    <div id='careerobj' class='resumetext'>
+                        <h3>Career Objective</h3>
+                        <p>Master's graduate seeking to leverage experience in risk analysis, personnel management and quality assurance for developement position. Dedicated employee with outstanding attention to detail and communication skills. Recently completed course of study in backend development and data science at The Iron Yard code school. Specific expertise in the following:</p>
+                        <ul>
+                            <li><p>Python, HTML, CSS, JavaScript</p></li>
+                            <li><p>Project Management</p></li>
+                            <li><p>Statistical Modeling</p></li>
+                            <li><p>Database Management</p></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div id='professionalxp' class='resumetext'>
+                        <h3>Professional Experience</h3>
+                        <p><b>The Iron Yard</b> Durham, NC</p>
+                        <p>Connect with people pursuing the craft and lifelong adventure of technology and help equip them with the skills they need to both get started and progress throughout their careers.</p>
+                        <p><b><i>Student</i></b></p>
+                        <p>Learn skills and best practices related to Python development and data science.</p>
+                        <ul>
+                            <li><p>Final project created product that sends sensor data over Wi-Fi to web app</p></li>
+                            <li><p>Developed and deployed Django web apps using Postgresql databases</p></li>
+                            <li><p>Implemented pandas and scikit-learn to develop machine learning algorithms</p></li>
+                            <li><p>Learned core Python programming fundamentals including common best practices</p></li>
+                        </ul>
+                        <br>
+                        <p><b>Integrated Power Services</b> Cleveland, OH</p>
+                        <p>Specializes in engineering, repair and maintenance services for electric motors and generators in continuous process industries including mining, petrochemical and electrical utilities.</p>
+                        <p><b><i>Nuclear Quality Control Inspector</i></b></p>
+                        <p>Execute and oversee aspects of 10CFR Appendix B nuclear quality assurance program and ensure adherence to Nuclear Regulatory Commission requirements.</p>
+                        <ul>
+                            <li><p>Impelemnt database to track calibration/maintenance of 350+ measurement devices</p></li>
+                            <li><p>Assisted in 75% reductino of NUPIC audit findings</p></li>
+                        <p><b><i>Technical Writer, Nuclear Division</i></b></p>
+                        <p>Identify technical requirements and develop documents for nuclear quality processes.</p>
+                        <ul>
+                            <li><p>Researched and wrote work instructions for mechanical and electrical test procedures</p></li>
+                            <li><p>Provided IT support for internal work processes</p></li>
+                        <p><b><i>Technical Writer, Commercial Division</i></b></p>
+                        <p>Design and generate specialized reports for commercial customer approval.</p>
+                        <ul>
+                            <li><p>Reviewed measurement and repair data supplied in customer reports</p></li>
+                    </div>
                 </div>
-                <br>
-                <div id='careerobj' class='resumetext'>
-                    <h3>Career Objective</h3>
-                    <p>Master's graduate seeking to leverage experience in risk analysis, personnel management and quality assurance for developement position. Dedicated employee with outstanding attention to detail and communication skills. Recently completed course of study in backend development and data science at The Iron Yard code school. Specific expertise in the following:</p>
-                    <ul>
-                        <li><p>Python, HTML, CSS, JavaScript</p></li>
-                        <li><p>Project Management</p></li>
-                        <li><p>Statistical Modeling</p></li>
-                        <li><p>Database Management</p></li>
-                    </ul>
-                </div>
-                <br>
-                <div id='professionalxp' class='resumetext'>
-                    <p><b>The Iron Yard</b>  Durham, NC</p>
-                    <p>Connect with people pursuing the craft and lifelong adventure of technology and help equip them with the skills they need to both get started and progress throughout their careers.</p>
-                    <p><b><i>Student</i></b></p>
-                    <p>Learn skills and best practices related to Python development and data science.</p>
-                    <ul>
-                        <li><p>Final project created product that sends sensor data over Wi-Fi to web app</p></li>
-                        <li><p>Developed and deployed Django web apps using Postgresql databases</p></li>
-                        <li><p>Implemented pandas and scikit-learn to develop machine learning algorithms</p></li>
-                        <li><p>Learned core Python programming fundamentals including common best practices</p></li>
-                    </ul>
+                <div id='Page 2' class='city'>
+                    <div id='priorprofessionalxp' class='resumetext'>
+                        <h3>Prior Professional Experience</h3>
+                        <p><b>Habitat for Humanity</b> Cleveland, OH</p>
+                        <p>Works in partnerships to eliminate substandard housing, enabling families and volunteers to improve their lives.</p>
+                        <p><b><i>Volunteer Management Intern</i></b></p>
+                        <p>Facilitate home-building process for partner families and manage store inventory.</p>
+                        <ul>
+                            <li><p>Supervised volunteer groups and coordinated project activities</p></li>
+                            <li><p>Managed donation process and assisted in permit applications</p></li>
+                            <li><p>Updated inventory database</p></li>
+                            <li><p>Reviewed and updated safety compliance documentation</p></li>
+                        </ul>
+                        <p><b>Findley Davies</b> Cleveland, OH</p>
+                        <p>Partners with organizations to align people strategies with business strategies through design and implementation of human resource programs.</p>
+                        <p><b><i>Actuarial Analyst</i></b></p>
+                        <p>Analyze pension plan and retirement-related issues with a focus on mitigating clients' risk exposure while enhancing their financial performance.</p>
+                        <ul>
+                            <li><p>Calculated benefits and actuarial valuations and filed associated government forms</p></li>
+                            <li><p>Updated and managed client databases</p></li>
+                            <li><p>Assisted consultants and actuaries in plan-design studies and other related projects</p></li>
+                            <li><p>Pursued actuarial credentials through the firm-sponsored program</p></li>
+                        </ul>
+                    </div>
+                    <br>
+                    <div id='educationcert' class-'resumetext'>
+                        <h3>Education/Certification</h3>
+                        <p><b>Society of Actuaries/Casualty Actuarial Society</b></p>
+                        <ul>
+                            <li><p>Passed Exam P/1 - Probability</p></li>
+                        </ul>
+                        <p><b>Miami University</b> Oxford, OH</p>
+                        <p>Nationally recognized public university with an excpetional commitment to undergraduate education.</p>
+                        <p><b>Master of Arts (MA) Economics</b></p>
+                        <ul>
+                            <li><p>Advanced statistical and theoretical education in researching economic issues</p></li>
+                            <li><p>Thesis titled, "The Employment Effects of the Tip Credit in the Restaurant Industry"</p></li>
+                        </ul>
+                        <p><b>Bachelor of Science (BS) Economics</b></p>
+                        <p><b>Bachelor of Science (BS) Mathematics</b></p>
+                        <ul>
+                            <li><p>University Honors Scholar, 2003-2006</p></li>
+                            <li><p>National Merit Honors Scholar, 2003-2007</p></li>
+                            <li><p>Dean's List, 2003-2004</p></li>
+                        </ul>
+                        <p><b>National Outdoor Leadership School</b> Lander, WY</p>
+                        <p>Non-profit outdoor education school dedicated to teaching environmental ethics, safety and judgment, technical outdoor skills and leadership on extended wilderness expeditions.</p>
+                        <ul>
+                            <li><p>Successfully completed Waddington Range Mountaineering course</p></li>
+                            <li><p>Developed leadership and survival skills on glaciers in British Columbia</p></li>
+\                        </ul>
+                    </div>
                 </div>
             </section>
             <section id='page_bottom'>
@@ -84,4 +161,5 @@
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="js/navlock.js"></script>
+    <script src="js/pagetabs.js"></script>
 </html>

@@ -190,8 +190,8 @@ PAGE: PORTFOLIO
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
-    max-width: 1200px;
     width: 90%;
+    max-width: 1200px;
 }
 
 #gallery {
@@ -223,8 +223,8 @@ PAGE: ABOUT
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
-    max-width: 1200px;
     width: 90%;
+    max-width: 1200px;
 }
 
 .profile-photo {
@@ -261,9 +261,8 @@ PAGE: RESUME
 #resume {
     height: 100%;
     width: 100%;
-    margin: 20px auto 0 auto;
+    margin: 20px auto;
     padding: 20px;
-    max-width: 1200px;
     width: 80%;
     max-width: 8.5in;
 }
@@ -275,6 +274,24 @@ PAGE: RESUME
 .resumetext h3 {
     text-align: center;
     word-spacing: .25em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.resumetext ul {
+    display: table;
+    margin: 0 auto;
+}
+
+#pagebuttons {
+    position: fixed;
+    right: 10px;
+    top: 50%;
+}
+
+.pagebutton {
+    display: block;
+    margin: 10px;
 }
 
 
@@ -288,8 +305,8 @@ PAGE: CONTACT
     width: 100%;
     margin: 0 auto;
     padding-top: 20px;
-    max-width: 1200px;
     width: 90%;
+    max-width: 1200px;
 }
 
 .contact-info {
