@@ -1,4 +1,6 @@
 @media screen and (min-width: 480px) {
+
+
     /****************************
     GENERAL
     ****************************/
@@ -28,7 +30,6 @@
     }
 
 
-
     /****************************
     PAGE: RESUME
     ****************************/
@@ -36,6 +37,15 @@
     #resume {
         margin: 30px auto;
     }
+
+    #resume p {
+        font-size: .7em;
+    }
+
+    #titlelist {
+        width: 130px;
+    }
+
 
     /****************************
     PAGE: CONTACT
@@ -53,7 +63,6 @@
     }
 
 
-
     /****************************
     FOOTER
     ****************************/
@@ -62,23 +71,19 @@
         border-top: 0;
         border-left: 0;
         border-right: 0;
-        border-bottom: 60px;
+        border-bottom: 40px;
         border-style: solid;
-    }
-
-    .social-icon {
-        width: 30px;
-        height: 30px;
-    }
-
-    #footer_wrapper {
-        height: 60px;
     }
 }
 
 
 
-@media screen and (min-width: 660px) {
+/***************************************
+    SIZE BREAK HERE
+***************************************/
+@media screen and (width: 660px) {
+
+
     /****************************
     GENERAL
     ****************************/
@@ -112,17 +117,19 @@
     }
 
 
-
     /****************************
     PAGE: PORTFOLIO
     ****************************/
 
-    #gallery {
-      -webkit-columns: 2 300px;
-         -moz-columns: 2 300px;
-              columns: 2 300px;
+    #gallery li {
+        float: left;
+        width: 44%;
+        margin: 3%;
     }
 
+    #gallery li p {
+        height: 50px;
+    }
 
 
     /****************************
@@ -146,6 +153,22 @@
     }
 
 
+    /****************************
+    PAGE: RESUME
+    ****************************/
+
+    #resume p {
+        font-size: .85em;
+    }
+
+    #resume ul {
+        line-height: .9em;
+    }
+
+    #titlelist {
+        width: 160px;
+    }
+
 
     /****************************
     FOOTER
@@ -155,23 +178,28 @@
         border-top: 0;
         border-left: 0;
         border-right: 0;
-        border-bottom: 65px;
+        border-bottom: 45px;
         border-style: solid;
     }
 
     .social-icon {
-        width: 35px;
-        height: 35px;
+        width: 25px;
+        height: 25px;
     }
 
     #footer_wrapper {
-        height: 65px;
+        height: 45px;
     }
 }
 
 
 
+/***************************************
+    SIZE BREAK HERE
+***************************************/
 @media screen and (min-width: 1000px) {
+
+
     /****************************
     GENERAL
     ****************************/
@@ -202,17 +230,37 @@
     }
 
 
-
     /****************************
     PAGE: PORTFOLIO
     ****************************/
 
-    #gallery {
-      -webkit-columns: 3 200px;
-         -moz-columns: 3 200px;
-              columns: 3 200px;
+    #gallery li {
+        float: left;
+        width: 30%;
+        margin: 1.66%;
     }
 
+    #gallery li p {
+        height: 50px;
+    }
+
+
+    /****************************
+    PAGE: RESUME
+    ****************************/
+
+    #resume {
+        min-height: 11in;
+    }
+
+    #resume p {
+        font-size: 1.15em;
+        line-height: 1.3em;
+    }
+
+    #titlelist {
+        width: 220px;
+    }
 
 
     /****************************
@@ -223,16 +271,16 @@
         border-top: 0;
         border-left: 0;
         border-right: 0;
-        border-bottom: 70px;
+        border-bottom: 50px;
         border-style: solid;
     }
 
     .social-icon {
-        width: 40px;
-        height: 40px;
+        width: 30px;
+        height: 30px;
     }
 
     #footer_wrapper {
-        height: 70px;
+        height: 50px;
     }
 }

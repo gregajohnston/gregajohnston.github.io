@@ -1,12 +1,12 @@
 openPage("Page 1");
 
-function openPage(cityName) {
+function openPage(pageNumber) {
     var i;
-    var x = document.getElementsByClassName("city");
+    var x = document.getElementsByClassName("page");
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    document.getElementById(cityName).style.display = "block";
+    document.getElementById(pageNumber).style.display = "block";
 }
 
 // function openPage(evnt, pageNumber) {

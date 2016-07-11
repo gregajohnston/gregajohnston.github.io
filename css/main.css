@@ -32,7 +32,6 @@ img {
 }
 
 
-
 /****************************
 HEADER
 ****************************/
@@ -75,7 +74,6 @@ h2 {
     font-weight: normal;
     width: 260px;
 }
-
 
 
 /****************************
@@ -124,7 +122,6 @@ nav a {
 }
 
 
-
 /****************************
 Footer
 ****************************/
@@ -134,16 +131,16 @@ Footer
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 55px;
+    border-bottom: 40px;
     border-style: solid;
 }
 
 #footer_wrapper {
     left: 0;
     bottom: 0;
-    height:55px;
-    position:fixed;
-    width:100%;
+    height: 40px;
+    position: fixed;
+    width: 100%;
 }
 
 footer {
@@ -164,11 +161,11 @@ a.social-link {
 }
 
 .social-icon {
-    width: 25px;
-    height: 25px;
-    padding: 5px;
-    margin: 5px;
-    border: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    margin: 3px;
+    border: 3px;
     border-style: solid;
     border-radius: 100%;
 }
@@ -178,7 +175,6 @@ a.social-link {
     text-align: center;
     font-size: .8em;
 }
-
 
 
 /****************************
@@ -202,6 +198,7 @@ PAGE: PORTFOLIO
 }
 
 #gallery li {
+    float: left;
     width: 100%;
     margin: 0;
 }
@@ -210,8 +207,12 @@ PAGE: PORTFOLIO
     margin: 2% 0 5% 0;
     padding: 3% 5% 5% 5%;
     font-size: 0.75em;
+    height: 30px;
 }
 
+.clear {
+    clear: both;
+}
 
 
 /****************************
@@ -229,29 +230,24 @@ PAGE: ABOUT
 
 .profile-photo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 150px;
-    margin: 0 auto 30px;
+    margin: 0 auto;
+    max-width: 200px;
     border-radius:  100%;
 }
 
 #primary-a {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     vertical-align: middle;
-    width: 95%;
-    margin-right: 5%;
+    width: 90%;
+    margin: 0 5%;
 }
 
 #secondary-a {
     display: block;
     vertical-align: middle;
-    width: 95%;
-    margin-right: 5%;
+    width: 90%;
+    margin: 10px 5%;
 }
-
 
 
 /****************************
@@ -262,13 +258,28 @@ PAGE: RESUME
     height: 100%;
     width: 100%;
     margin: 20px auto;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     width: 80%;
     max-width: 8.5in;
 }
 
+#resume p {
+    font-size: .6em;
+}
+
+#resume ul {
+    line-height: .8em;
+}
+
 #title {
     text-align: center;
+}
+
+#titlelist {
+    display: table;
+    margin: 0 auto;
+    width: 120px;
+    padding-left: 10px;
 }
 
 .resumetext h3 {
@@ -282,22 +293,46 @@ PAGE: RESUME
     text-align: justify;
 }
 
-.resumetext ul {
-    display: table;
+.alignleft {
+    float: left;
+}
+
+.alignright {
+    float: right;
+}
+
+.floattextwide {
+    margin: 0 auto;
+    width: 100%;
+    clear: both;
+}
+
+.floattextindent {
+    margin: 0 auto;
+    width: 90%;
+    clear: both;
+}
+
+.indent {
+    width: 90%;
     margin: 0 auto;
 }
 
+.resumetext ul {
+    display: table;
+    margin: 0 auto;
+    width: 80%;
+    padding-left: 10px;
+}
+
 #pagebuttons {
-    position: fixed;
-    right: 10px;
-    top: 50%;
+    margin: 0 auto 10px auto;
+    width: 70.7px;
 }
 
 .pagebutton {
-    display: block;
     margin: 10px;
 }
-
 
 
 /****************************
