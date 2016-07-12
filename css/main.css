@@ -348,6 +348,21 @@ PAGE: CONTACT
     max-width: 1200px;
 }
 
+#info {
+    height: 100%
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#primary-c {
+    margin-bottom: 20px;
+}
+
+#secondary-c {
+    margin-bottom: 20px;
+}
+
 .contact-info {
     list-style: none;
     padding: 0;
@@ -364,17 +379,17 @@ PAGE: CONTACT
     margins: 0 0 10px 0;
 }
 
-.contact-info li.phone a {
-    background-image: url('../img/phone.png');
-    display: inline;
-}
-
 .contact-info li.mail a {
-    background-image: url('../img/mail.png');
+    background-image: url('../img/contact-mail.png');
     display: inline;
 }
 
 .contact-info li.twitter a {
-    background-image: url('../img/twitter.png');
+    background-image: url('../img/contact-twitter.png');
+    display: inline;
+}
+
+.contact-info li.facebook a {
+    background-image: url('../img/contact-facebook.png');
     display: inline;
 }
