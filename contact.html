@@ -12,7 +12,8 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     </head>
     <body>
-        <header id='header'>
+        <div id='space_wrapper'>
+        <header id='header'  class='spacer top'>
             <div id='logo'>
                 <a href='index.html'>
                     <img src='img/gj-logo-offgray.png' alt="Personal icon" id='personal-icon'>
@@ -30,7 +31,7 @@
                 </nav>
             </div>
         </header>
-        <div id='body_wrapper'>
+        <div id='body_wrapper'  class='spacer middle'>
             <section id='contact'>
                 <ul id='info'>
                     <li id='primary-c'>
@@ -49,10 +50,10 @@
                     </li>
                 </ul>
             </section>
-            <section id='page_bottom'>
-                <p id='copywrite'>All content copywrite &copy; 2016 Gregory Johnston and licensed under MIT.</p>
-            </section>
         </div>
+        <section id='page_bottom'  class='spacer bottom'>
+            <p id='copywrite'>All content copywrite &copy; 2016 Gregory Johnston and licensed under MIT.</p>
+        </section>
         <div id='footer_wrapper'>
             <footer>
                 <a href='http://github.com/gregajohnston' class='social-link'>
@@ -66,6 +67,7 @@
                 </a>
                 <p id='copywrite'>&copy; 2016 Greg Johnston</p>
             </footer>
+        </div>
         </div>
     </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
