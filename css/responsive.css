@@ -56,13 +56,13 @@
     }
 
     #primary-c {
-        width: 50%;
+        width: 45%;
         float: left;
         margin-right: 10%;
     }
 
     #secondary-c {
-        width: 40%;
+        width: 30%;
         float: right;
     }
 
@@ -141,19 +141,13 @@
     ****************************/
 
     #primary-a {
-        display: inline-block;
-        vertical-align: middle;
-        width: 30%;
-        float: left;
-        margin-right: 15%;
+        width: 35%;
+        margin: 15px 0 15px 3%;
     }
 
     #secondary-a {
-        display: inline-block;
-        vertical-align: middle;
-        float: right;
-        width: 50%;
-        margin-right: 5%;
+        width: 52%;
+        margin: 15px 5%;
     }
 
 
@@ -246,6 +240,25 @@
 
     #gallery li p {
         height: 50px;
+    }
+
+
+    /****************************
+    PAGE: ABOUT
+    ****************************/
+
+    .profile-photo {
+        max-width: 250px;
+    }
+
+    #primary-a {
+        width: 35%;
+        margin: 15px 0 15px 3%;
+    }
+
+    #secondary-a {
+        width: 52%;
+        margin: 15px 5%;
     }
 
 

@@ -236,17 +236,15 @@ PAGE: ABOUT
 }
 
 #primary-a {
-    display: block;
-    vertical-align: middle;
+    float: left;
     width: 90%;
-    margin: 0 5%;
+    margin: 15px 5%;
 }
 
 #secondary-a {
-    display: block;
-    vertical-align: middle;
+    float: right;
     width: 90%;
-    margin: 10px 5%;
+    margin: 15px 5%;
 }
 
 
