@@ -31,6 +31,24 @@ img {
     padding-top: 55px;
 }
 
+#space_wrapper {
+    display: flex;
+    flex-flow: column;
+    height: 100% !important;
+}
+
+.top {
+    flex: 0 0 auto;
+}
+
+.middle {
+    flex: 1 1 auto;
+}
+
+.bottom {
+    flex: 0 0 auto;
+}
+
 
 /****************************
 HEADER
@@ -359,24 +377,6 @@ PAGE: CONTACT
 
 #secondary-c {
     margin-bottom: 20px;
-}
-
-#space_wrapper {
-    display: flex;
-    flex-flow: column;
-    height: 100% !important;
-}
-
-.top {
-    flex: 0 0 auto;
-}
-
-.middle {
-    flex: 1 1 auto;
-}
-
-.bottom {
-    flex: 0 0 auto;
 }
 
 .contact-info {
