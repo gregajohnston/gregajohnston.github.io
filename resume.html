@@ -12,201 +12,203 @@
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     </head>
     <body>
-        <header id='header'>
-            <div id='logo'>
-                <a href='index.html'>
-                    <img src='img/gj-logo-offgray.png' alt="Personal icon" id='personal-icon'>
-                    <h1>Future Full Stack Python Developer</h1>
-                </a>
-            </div>
-            <div id='nav_wrapper'>
-                <nav>
-                    <ul>
-                        <li><a href='index.html'>Portfolio</a></li>
-                        <li><a href='about.html'>About</a></li>
-                        <li><a href='resume.html'  class='selected'>Resume</a></li>
-                        <li><a href='contact.html'>Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <div id='body_wrapper'>
-            <section id='resume'>
-                <form id='pagebuttons'>
-                    <input class='pagebutton' type='radio' name='pages' value='Page 1' onclick="openPage('Page 1')" checked>
-                    <input class='pagebutton' type='radio' name='pages' value='Page 2' onclick="openPage('Page 2')">
-                </form>
-                <div id='Page 1' class='page'>
-                    <div id='title' class='resumetext'>
-                        <h3>Gregory Johnston</h3>
-                        <p>3016 Pickett Rd, Apt 602 &#8226; Durham, NC 27705</p>
-                        <p>greg.a.johnston@gmail.com &#8226; gregajohnston.github.io</p>
-                        <p>github.com/gregajohnston &#8226; linkedin.com/in/gregajohnston</p>
-                    </div>
-                    <br/>
-                    <div id='careerobj' class='resumetext'>
-                        <h3>Career Objective</h3>
-                        <p class='fulltext'>Master's graduate seeking to leverage experience in risk analysis, personnel management and quality assurance for developement position. Dedicated employee with outstanding attention to detail and communication skills. Recently completed course of study in backend development and data science at The Iron Yard code school. Specific expertise in the following:</p>
-                        <ul id='titlelist'>
-                            <li><p>Python, HTML, CSS, JavaScript</p></li>
-                            <li><p>Project Management</p></li>
-                            <li><p>Statistical Modeling</p></li>
-                            <li><p>Database Management</p></li>
-                        </ul>
-                    </div>
-                    <br/>
-                    <div id='professionalxp' class='resumetext'>
-                        <h3>Professional Experience</h3>
-                        <div class='floattextwide'>
-                            <p class='alignleft'><b>The Iron Yard</b>&emsp;&ensp;Durham, NC</p>
-                            <p class='alignright'><b>March 2016 - June 2016</b></p>
-                        </div>
-                        <p class='fulltext'><br/>Connect with people pursuing the craft and lifelong adventure of technology and help equip them with the skills they need to both get started and progress throughout their careers.</p>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b><i>Student</i></b></p>
-                            <p class='alignright'>March 2016 - June 2016</p>
-                        </div>
-                        <p class='fulltext indent'><br/>Learn skills and best practices related to Python development and data science.</p>
-                        <ul class='indent'>
-                            <li><p>Final project created web app that receives sensor data and stores in database</p></li>
-                            <li><p>Developed and deployed Django web apps using Postgresql databases</p></li>
-                            <li><p>Implemented pandas and scikit-learn to develop machine learning algorithms</p></li>
-                            <li><p>Learned core Python programming fundamentals including common best practices</p></li>
-                        </ul>
-                        <div class='floattextwide'>
-                            <p class='alignleft'><b>Integrated Power Services</b>&emsp;&ensp;Cleveland, OH</p>
-                            <p class='alignright'>March 2013 - August 2015</p>
-                        </div>
-                        <p class='fulltext'><br/>Specializes in engineering, repair and maintenance services for electric motors and generators in continuous process industries including mining, petrochemical and electrical utilities.</p>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b><i>Nuclear Quality Control Inspector</i></b></p>
-                            <p class='alignright'>July 2014 - August 2015</p>
-                        </div>
-                        <p class='fulltext indent'><br/>Execute and oversee aspects of 10CFR Appendix B nuclear quality assurance program and ensure adherence to Nuclear Regulatory Commission requirements.</p>
-                        <ul>
-                            <li><p>Implement database to track calibration/maintenance of 350+ measurement devices</p></li>
-                            <li><p>Assisted in 75% reductino of NUPIC audit findings</p></li>
-                        </ul>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b><i>Technical Writer, Nuclear Division</i></b></p>
-                            <p class='alignright'>April 2014 - July 2014</p>
-                        </div>
-                        <p class='fulltext indent'><br/>Identify technical requirements and develop documents for nuclear quality processes.</p>
-                        <ul>
-                            <li><p>Researched and wrote work instructions for mechanical and electrical test procedures</p></li>
-                            <li><p>Provided IT support for internal work processes</p></li>
-                        </ul>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b><i>Technical Writer, Commercial Division</i></b></p>
-                            <p class='alignright'>March 2013 - April 2014</p>
-                        </div>
-                        <p class='fulltext indent'><br/>Design and generate specialized reports for commercial customer approval.</p>
-                        <ul>
-                            <li><p>Reviewed measurement and repair data supplied in customer reports</p></li>
-                    </div>
+        <div id='space_wrapper'>
+            <header id='header' class='top'>
+                <div id='logo'>
+                    <a href='index.html'>
+                        <img src='img/gj-logo-offgray.png' alt="Personal icon" id='personal-icon'>
+                        <h1>Future Full Stack Python Developer</h1>
+                    </a>
                 </div>
-                <div id='Page 2' class='page'>
-                    <div id='priorprofessionalxp' class='resumetext'>
-                        <h3>Prior Professional Experience</h3>
-                        <div class='floattextwide'>
-                            <p class='alignleft'><b>Habitat for Humanity</b>&emsp;&ensp;Cleveland, OH</p>
-                            <p class='alignright'><b>January 2012 - February 2013</b></p>
-                        </div>
-                        <p class='fulltext'><br/>Works in partnerships to eliminate substandard housing, enabling families and volunteers to improve their lives.</p>
-                        <div class='floattextindent'>
-                            <p><b><i>Volunteer Management Intern</i></b></p>
-                        </div>
-                        <p class='fulltext indent'>Facilitate home-building process for partner families and manage store inventory.</p>
+                <div id='nav_wrapper'>
+                    <nav>
                         <ul>
-                            <li><p>Supervised volunteer groups and coordinated project activities</p></li>
-                            <li><p>Managed donation process and assisted in permit applications</p></li>
-                            <li><p>Updated inventory database</p></li>
-                            <li><p>Reviewed and updated safety compliance documentation</p></li>
+                            <li><a href='index.html'>Portfolio</a></li>
+                            <li><a href='about.html'>About</a></li>
+                            <li><a href='resume.html'  class='selected'>Resume</a></li>
+                            <li><a href='contact.html'>Contact</a></li>
                         </ul>
-                        <div class='floattextwide'>
-                            <p class='alignleft'><b>Findley Davies</b>&emsp;&ensp;Cleveland, OH</p>
-                            <p class='alignright'><b>February 2011 - December 2011</b></p>
-                        </div>
-                        <p class='fulltext'><br/>Partners with organizations to align people strategies with business strategies through design and implementation of human resource programs.</p>
-                        <div class='floattextindent'>
-                            <p><b><i>Actuarial Analyst</i></b></p>
-                        </div>
-                        <p class='fulltext indent'>Analyze pension plan and retirement-related issues with a focus on mitigating clients' risk exposure while enhancing their financial performance.</p>
-                        <ul>
-                            <li><p>Calculated benefits and actuarial valuations and filed associated government forms</p></li>
-                            <li><p>Updated and managed client databases</p></li>
-                            <li><p>Assisted consultants and actuaries in plan-design studies and other related projects</p></li>
-                            <li><p>Pursued actuarial credentials through the firm-sponsored program</p></li>
-                        </ul>
-                    </div>
-                    <br/>
-                    <div id='educationcert' class='resumetext'>
-                        <h3>Education/Certification</h3>
-                        <div class='floattextwide'>
-                            <p class='alignleft'><b>Society of Actuaries/Casualty Actuarial Society</b></p>
-                            <p class='alignright'><b>June 2010</b></p>
-                        </div>
-                        <ul>
-                            <li><p>Passed Exam P/1 - Probability</p></li>
-                        </ul>
-                        <div class='floattextwide'>
-                            <p class='alignleft'><b>Miami University</b>&emsp;&ensp;Oxford, OH</p>
-                            <p class='alignright'><b>August 2003 - December 2008</b></p>
-                        </div>
-                        <p class='fulltext'><br/>Nationally recognized public university with an exceptional commitment to undergraduate education.</p>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b>Master of Arts (MA) Economics</b></p>
-                            <p class='alignright'>August 2007 - December 2008</p>
-                        </div>
-                        <ul>
-                            <li><p>Advanced statistical and theoretical education in researching economic issues</p></li>
-                            <li><p>Thesis titled, "The Employment Effects of the Tip Credit in the Restaurant Industry"</p></li>
-                        </ul>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b>Bachelor of Science (BS) Economics</b></p>
-                            <p class='alignright'>August 2003 - May 2007</p>
-                        </div>
-                        <div class='floattextindent'>
-                            <p class='alignleft'><b>Bachelor of Science (BS) Mathematics</b></p>
-                            <p class='alignright'>August 2003 - May 2007</p>
-                        </div>
-                        <ul>
-                            <li><p>University Honors Scholar, 2003-2006</p></li>
-                            <li><p>National Merit Honors Scholar, 2003-2007</p></li>
-                            <li><p>Dean's List, 2003-2004</p></li>
-                        </ul>
-                        <div class='floattext'>
-                            <p class='alignleft'><b>National Outdoor Leadership School</b>&emsp;&ensp;Lander, WY</p>
-                            <p class='alignright'><b>July 2007</b></p>
-                        </div>
-                        <p class='fulltext'><br/>Non-profit outdoor education school dedicated to teaching environmental ethics, safety and judgment, technical outdoor skills and leadership on extended wilderness expeditions.</p>
-                        <ul>
-                            <li><p>Successfully completed Waddington Range Mountaineering course</p></li>
-                            <li><p>Developed leadership and survival skills on glaciers in British Columbia</p></li>
-                        </ul>
-                    </div>
+                    </nav>
                 </div>
-            </section>
-            <section id='page_bottom'>
-                <p id='copywrite'>All content copywrite &copy; 2016 Gregory Johnston and licensed under MIT.</p>
-            </section>
+            </header>
+            <div id='body_wrapper' class='middle'>
+                <section id='resume'>
+                    <form id='pagebuttons'>
+                        <input class='pagebutton' type='radio' name='pages' value='Page 1' onclick="openPage('Page 1')" checked>
+                        <input class='pagebutton' type='radio' name='pages' value='Page 2' onclick="openPage('Page 2')">
+                    </form>
+                    <div id='Page 1' class='page'>
+                        <div id='title' class='resumetext'>
+                            <h3>Gregory Johnston</h3>
+                            <p>3016 Pickett Rd, Apt 602 &#8226; Durham, NC 27705</p>
+                            <p>greg.a.johnston@gmail.com &#8226; gregajohnston.github.io</p>
+                            <p>github.com/gregajohnston &#8226; linkedin.com/in/gregajohnston</p>
+                        </div>
+                        <br/>
+                        <div id='careerobj' class='resumetext'>
+                            <h3>Career Objective</h3>
+                            <p class='fulltext'>Master's graduate seeking to leverage experience in risk analysis, personnel management and quality assurance for development position. Dedicated employee with outstanding attention to detail and communication skills. Recently completed course of study in backend development and data science at The Iron Yard code school. Specific expertise in the following:</p>
+                            <ul id='titlelist'>
+                                <li><p>Python, HTML, CSS, JavaScript</p></li>
+                                <li><p>Project Management</p></li>
+                                <li><p>Statistical Modeling</p></li>
+                                <li><p>Database Management</p></li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <div id='professionalxp' class='resumetext'>
+                            <h3>Professional Experience</h3>
+                            <div class='floattextwide'>
+                                <p class='alignleft'><b>The Iron Yard</b>&emsp;&ensp;Durham, NC</p>
+                                <p class='alignright'><b>March 2016 - June 2016</b></p>
+                            </div>
+                            <p class='fulltext'><br/>Connect with people pursuing the craft and lifelong adventure of technology and help equip them with the skills they need to both get started and progress throughout their careers.</p>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b><i>Student</i></b></p>
+                                <p class='alignright'>March 2016 - June 2016</p>
+                            </div>
+                            <p class='fulltext indent'><br/>Learn skills and best practices related to Python development and data science.</p>
+                            <ul class='indent'>
+                                <li><p>Final project created web app that receives sensor data and stores in database</p></li>
+                                <li><p>Developed and deployed Django web apps using Postgresql databases</p></li>
+                                <li><p>Implemented pandas and scikit-learn to develop machine learning algorithms</p></li>
+                                <li><p>Learned core Python programming fundamentals including common best practices</p></li>
+                            </ul>
+                            <div class='floattextwide'>
+                                <p class='alignleft'><b>Integrated Power Services</b>&emsp;&ensp;Cleveland, OH</p>
+                                <p class='alignright'>March 2013 - August 2015</p>
+                            </div>
+                            <p class='fulltext'><br/>Specializes in engineering, repair and maintenance services for electric motors and generators in continuous process industries including mining, petrochemical and electrical utilities.</p>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b><i>Nuclear Quality Control Inspector</i></b></p>
+                                <p class='alignright'>July 2014 - August 2015</p>
+                            </div>
+                            <p class='fulltext indent'><br/>Execute and oversee aspects of 10CFR Appendix B nuclear quality assurance program and ensure adherence to Nuclear Regulatory Commission requirements.</p>
+                            <ul>
+                                <li><p>Implement database to track calibration/maintenance of 350+ measurement devices</p></li>
+                                <li><p>Assisted in 75% reductino of NUPIC audit findings</p></li>
+                            </ul>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b><i>Technical Writer, Nuclear Division</i></b></p>
+                                <p class='alignright'>April 2014 - July 2014</p>
+                            </div>
+                            <p class='fulltext indent'><br/>Identify technical requirements and develop documents for nuclear quality processes.</p>
+                            <ul>
+                                <li><p>Researched and wrote work instructions for mechanical and electrical test procedures</p></li>
+                                <li><p>Provided IT support for internal work processes</p></li>
+                            </ul>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b><i>Technical Writer, Commercial Division</i></b></p>
+                                <p class='alignright'>March 2013 - April 2014</p>
+                            </div>
+                            <p class='fulltext indent'><br/>Design and generate specialized reports for commercial customer approval.</p>
+                            <ul>
+                                <li><p>Reviewed measurement and repair data supplied in customer reports</p></li>
+                        </div>
+                    </div>
+                    <div id='Page 2' class='page'>
+                        <div id='priorprofessionalxp' class='resumetext'>
+                            <h3>Prior Professional Experience</h3>
+                            <div class='floattextwide'>
+                                <p class='alignleft'><b>Habitat for Humanity</b>&emsp;&ensp;Cleveland, OH</p>
+                                <p class='alignright'><b>January 2012 - February 2013</b></p>
+                            </div>
+                            <p class='fulltext'><br/>Works in partnerships to eliminate substandard housing, enabling families and volunteers to improve their lives.</p>
+                            <div class='floattextindent'>
+                                <p><b><i>Volunteer Management Intern</i></b></p>
+                            </div>
+                            <p class='fulltext indent'>Facilitate home-building process for partner families and manage store inventory.</p>
+                            <ul>
+                                <li><p>Supervised volunteer groups and coordinated project activities</p></li>
+                                <li><p>Managed donation process and assisted in permit applications</p></li>
+                                <li><p>Updated inventory database</p></li>
+                                <li><p>Reviewed and updated safety compliance documentation</p></li>
+                            </ul>
+                            <div class='floattextwide'>
+                                <p class='alignleft'><b>Findley Davies</b>&emsp;&ensp;Cleveland, OH</p>
+                                <p class='alignright'><b>February 2011 - December 2011</b></p>
+                            </div>
+                            <p class='fulltext'><br/>Partners with organizations to align people strategies with business strategies through design and implementation of human resource programs.</p>
+                            <div class='floattextindent'>
+                                <p><b><i>Actuarial Analyst</i></b></p>
+                            </div>
+                            <p class='fulltext indent'>Analyze pension plan and retirement-related issues with a focus on mitigating clients' risk exposure while enhancing their financial performance.</p>
+                            <ul>
+                                <li><p>Calculated benefits and actuarial valuations and filed associated government forms</p></li>
+                                <li><p>Updated and managed client databases</p></li>
+                                <li><p>Assisted consultants and actuaries in plan-design studies and other related projects</p></li>
+                                <li><p>Pursued actuarial credentials through the firm-sponsored program</p></li>
+                            </ul>
+                        </div>
+                        <br/>
+                        <div id='educationcert' class='resumetext'>
+                            <h3>Education/Certification</h3>
+                            <div class='floattextwide'>
+                                <p class='alignleft'><b>Society of Actuaries/Casualty Actuarial Society</b></p>
+                                <p class='alignright'><b>June 2010</b></p>
+                            </div>
+                            <ul>
+                                <li><p>Passed Exam P/1 - Probability</p></li>
+                            </ul>
+                            <div class='floattextwide'>
+                                <p class='alignleft'><b>Miami University</b>&emsp;&ensp;Oxford, OH</p>
+                                <p class='alignright'><b>August 2003 - December 2008</b></p>
+                            </div>
+                            <p class='fulltext'><br/>Nationally recognized public university with an exceptional commitment to undergraduate education.</p>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b>Master of Arts (MA) Economics</b></p>
+                                <p class='alignright'>August 2007 - December 2008</p>
+                            </div>
+                            <ul>
+                                <li><p>Advanced statistical and theoretical education in researching economic issues</p></li>
+                                <li><p>Thesis titled, "The Employment Effects of the Tip Credit in the Restaurant Industry"</p></li>
+                            </ul>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b>Bachelor of Science (BS) Economics</b></p>
+                                <p class='alignright'>August 2003 - May 2007</p>
+                            </div>
+                            <div class='floattextindent'>
+                                <p class='alignleft'><b>Bachelor of Science (BS) Mathematics</b></p>
+                                <p class='alignright'>August 2003 - May 2007</p>
+                            </div>
+                            <ul>
+                                <li><p>University Honors Scholar, 2003-2006</p></li>
+                                <li><p>National Merit Honors Scholar, 2003-2007</p></li>
+                                <li><p>Dean's List, 2003-2004</p></li>
+                            </ul>
+                            <div class='floattext'>
+                                <p class='alignleft'><b>National Outdoor Leadership School</b>&emsp;&ensp;Lander, WY</p>
+                                <p class='alignright'><b>July 2007</b></p>
+                            </div>
+                            <p class='fulltext'><br/>Non-profit outdoor education school dedicated to teaching environmental ethics, safety and judgment, technical outdoor skills and leadership on extended wilderness expeditions.</p>
+                            <ul>
+                                <li><p>Successfully completed Waddington Range Mountaineering course</p></li>
+                                <li><p>Developed leadership and survival skills on glaciers in British Columbia</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <section id='page_bottom' class='bottom'>
+                    <p id='copywrite'>All content copywrite &copy; 2016 Gregory Johnston and licensed under MIT.</p>
+                </section>
+            </div>
+            <div id='footer_wrapper'>
+                <footer>
+                    <a href='http://github.com/gregajohnston' class='social-link'>
+                        <img src='img/circle_black_github.png' alt='GitHub Logo' class='social-icon'>
+                    </a>
+                    <a href='http://linkedin.com/in/gregajohnston' class='social-link'>
+                        <img src='img/circle_black_linkedin.png' alt='Linkedin Logo' class='social-icon'>
+                    </a>
+                    <a href='http://www.facebook.com/greg.a.johnston' class='social-link'>
+                        <img src='img/circle_black_facebook.png' alt='Facebook Logo' class='social-icon'>
+                    </a>
+                    <p id='copywrite'>&copy; 2016 Greg Johnston</p>
+                </footer>
+            </div>
         </div>
-        <div id='footer_wrapper'>
-            <footer>
-                <a href='http://github.com/gregajohnston' class='social-link'>
-                    <img src='img/circle_black_github.png' alt='GitHub Logo' class='social-icon'>
-                </a>
-                <a href='http://linkedin.com/in/gregajohnston' class='social-link'>
-                    <img src='img/circle_black_linkedin.png' alt='Linkedin Logo' class='social-icon'>
-                </a>
-                <a href='http://www.facebook.com/greg.a.johnston' class='social-link'>
-                    <img src='img/circle_black_facebook.png' alt='Facebook Logo' class='social-icon'>
-                </a>
-                <p id='copywrite'>&copy; 2016 Greg Johnston</p>
-            </footer>
-        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script src="js/navlock.js"></script>
+        <script src="js/pagetabs.js"></script>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-    <script src="js/navlock.js"></script>
-    <script src="js/pagetabs.js"></script>
 </html>
